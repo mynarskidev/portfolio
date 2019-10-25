@@ -1,1 +1,1 @@
-# portfolio
+Copyright © Daniel Mynarski 2019

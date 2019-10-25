@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #d3d3d3;
+    text-align: left;
+    background-color: #fff;
+}
+
+#mainNav {
+    background-color: #85a0bc;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: black;
+}
+
+#mainNav .navbar-home {
+    background-color: #85a0bc;
+}
+
+#mainNav .navbar-home.active,
+#mainNav .navbar-home:active,
+#mainNav .navbar-home:focus,
+#mainNav .navbar-home:hover {
+    background-color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 600;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: black;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 1000;
+
+}
+
+#mainNav .navbar-nav .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-image: url("../img/welcome.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+
+.masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+
+.masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+    font-size: 1.25rem;
+}
+
+.masthead .masthead-avatar {
+    width: 15rem;
+}
+
+@media (min-width: 992px) {
+    .masthead {
+        padding-top: calc(6rem + 104px);
+        padding-bottom: 6rem;
+    }
+
+    .masthead .masthead-heading {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .masthead .masthead-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+.welcome {
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    font-size: 20px;
+    width: 80%;
+    min-width: 280px;
+    max-width: 370px;
+    background-color: black;
+    margin-top: 11vh;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.welcome .text {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cursor {
+    font-family: "Courier New", Courier, monospace;
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.cursor.active {
+    opacity: 1;
+}
+
+@media (max-width: 575px) {
+    .welcome {
+        font-size: 28px;
+        width: 160px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .welcome {
+        font-size: 33px;
+        width: 220px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome {
+        margin-top: 10vh;
+        font-size: 38px;
+        width: 290px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .welcome {
+        margin-top: 10vh;
+        font-size: 43px;
+        width: 340px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .welcome {
+        margin-top: 10vh;
+        font-size: 48px;
+        width: 390px;
+    }
+}
+
+.page-section {
+    padding: 3rem 0 3rem 0;
+    background-color: #a9a9a9;
+}
+
+.page-section-heading {
+    padding: 2rem 0 3rem 0;
+    color: black;
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 992px) {
+    .page-section .page-section-heading {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.skills-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.grid-img {
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.figure-caption {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: black;
+}
+
+footer {
+    background-color: #000000;
+}
+
+@media (max-width: 768px) {
+    .projects-wrapper {
+        text-align: center;
+    }
+}
